@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v5
       - name: Create or update release PR
         id: release-pr
-        uses: actionutils/create-release-pr@main
+        uses: actionutils/create-release-pr@a69a222741204296270b0e9e8314266a6b6d8beb
 
   verify-releaser:
     needs: [release-pr]
